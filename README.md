@@ -24,13 +24,13 @@ Rest of the lines contain interaction in below format:
 Type NodeId NodeId Timestamp
 ```
 
-Type=1 for insertion
+Type=1 for insertion.
 
-Type=0 for deletion
+Type=0 for deletion.
 
-NodeId is Id of the endpoint of the edge
+NodeId is Id of the endpoint of the edge.
 
-Timestamp is time of interaction
+Timestamp is time of interaction.
 
 15wiki.txt is sample dataset with above format.
 
@@ -44,4 +44,4 @@ No. of days for which you want to run query.
 
 ## threshold
 
-invariant-core threshold
+invariant-core threshold.
