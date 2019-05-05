@@ -14,7 +14,7 @@ javac Kwin.java
 java Kwin DatasetFilePath startTime queryWindow threshold
 ```
 
-## Dataset Format:
+### Dataset Format:
 
 First line contains no. of interactions.
 
@@ -34,14 +34,20 @@ Timestamp is time of interaction.
 
 15wiki.txt is sample dataset with above format.
 
-## startTime
+### startTime
 
 Timestamp of the interaction from which you want to start query.
 
-## queryWindow
+### queryWindow
 
 No. of days for which you want to run query.
 
-## threshold
+### threshold
 
 invariant-core threshold.
+
+## Example
+
+```bash
+sh script.sh
+```
