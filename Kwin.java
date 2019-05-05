@@ -185,7 +185,7 @@ public class Kwin{
 				System.out.println(ic);
 			}
 
-	        System.out.println("Query Time: " + TimeUnit.NANOSECONDS.toMillis(totalTime));
+	        System.out.println("Query Time(ms): " + TimeUnit.NANOSECONDS.toMillis(totalTime));
 
 	    }
 	    catch (FileNotFoundException e) {
