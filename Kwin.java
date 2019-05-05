@@ -6,8 +6,8 @@ public class Kwin{
 
 	public static Set<Integer> answerSet = new HashSet<Integer>();
 	public static int theta = 5;
-	public static boolean bigNode = false;
-	public static boolean degreeBound = false;
+	public static boolean bigNode = true;
+	public static boolean degreeBound = true;
 
 	public static void main(String[] args) {
 
@@ -180,16 +180,12 @@ public class Kwin{
 			
 			totalTime = (dbTime + iTime + dTime);
 
-			// for(int j=0; j<vertices.length; j++){
-			// 	if(vertices[j].k!=0){
-			// 		System.out.println(j + "=" + vertices[j].k + "," + vertices[j].mcd);	
-			// 	}
-			// }
+			System.out.println("Invariant Core:");
+			for(Integer ic: answerSet){
+				System.out.println(ic);
+			}
 
-	        System.out.println(TimeUnit.NANOSECONDS.toMillis(totalTime));
-	        System.out.println(TimeUnit.NANOSECONDS.toMillis(iTime));
-	        System.out.println(TimeUnit.NANOSECONDS.toMillis(dTime));
-	        // System.out.println(answerSet.size());
+	        System.out.println("Query Time: " + TimeUnit.NANOSECONDS.toMillis(totalTime));
 
 	    }
 	    catch (FileNotFoundException e) {
