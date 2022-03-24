@@ -1,17 +1,20 @@
 # KWIQ
 
-Java implementation for finding invariant-cores.
+Java implementation for finding invariant-cores -> Kwin
+Baseline Java implementation -> Korder.java
 
 ## Compilation:
 
 ```java
 javac Kwin.java
+javac Korder.java
 ```
 
 ## Run:
 
 ```java
 java Kwin DatasetFilePath startTime queryWindow threshold
+java Korder DatasetFilePath startTime queryWindow threshold
 ```
 
 ### Dataset Format:
