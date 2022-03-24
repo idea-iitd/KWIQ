@@ -1,6 +1,6 @@
 # KWIQ
 
-Java implementation for finding invariant-cores -> Kwin
+Java implementation for finding invariant-cores -> Kwin.java
 
 Baseline Java implementation -> Korder.java
 
